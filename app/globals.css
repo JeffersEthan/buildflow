@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* BuildFlow base styles. Tailwind v4 theme tokens. */
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+}
