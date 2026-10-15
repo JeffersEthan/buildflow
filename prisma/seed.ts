@@ -11,10 +11,10 @@
  * Demo logins (password for all): demo1234
  *   owner@demo.local · manager@demo.local · sub@demo.local · client@demo.local
  */
-import { PrismaClient } from "@prisma/client";
 import bcrypt from "bcryptjs";
+// Prisma 7 requires a driver adapter: reuse the app's configured client.
+import { db } from "../lib/db";
 
-const db = new PrismaClient();
 const DEMO_PASSWORD = "demo1234";
 
 function daysFromNow(n: number): Date {
