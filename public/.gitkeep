@@ -1,0 +1,2 @@
+# Keeps public/ in git so Docker builds work on a fresh clone.
+# Static assets (favicon, logos, etc.) belong here.
