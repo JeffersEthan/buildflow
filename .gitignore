@@ -20,5 +20,6 @@ npm-debug.log*
 .DS_Store
 Thumbs.db
 
-# Prisma
-prisma/*.db
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
